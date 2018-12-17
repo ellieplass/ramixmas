@@ -1,0 +1,881 @@
+@font-face{
+font-family: cursiveellie;
+src:url(AlexBrush-Regular.ttf);
+}
+@font-face{
+font-family: groovy;
+src: url(KeeponTruckin.ttf);
+}
+@font-face{
+font-family: courier;
+src: url(Courier-Prime.ttf);
+}
+@font-face{
+font-family: exotic;
+src: url(Exotica.ttf);
+}
+@font-face{
+font-family: lobster;
+src: url(lobster.otf);
+}
+@font-face{
+font-family: cooking;
+src: url(learningcurve.otf);
+}
+
+html{
+background-color: white; 
+overflow-x: hidden;
+width: 1000px;
+height: auto;
+}
+
+/* Intro Page */
+.header1{
+top:75px;
+left: 75px;
+position: absolute;
+z-index: -1;
+}
+
+p.love{
+width: 500px;
+height: 100px;
+font-size: 14pt;
+top:100;
+left: 500;
+padding: 10px;
+position: absolute;
+z-index: 1;
+}
+
+.ily{
+top: 240px;
+left: 650px;
+position: absolute;
+z-index: -2;
+transform: rotate(10deg);
+
+}
+
+.circle{
+position:absolute;
+top:350px;
+left: -125px;
+width: 800;
+height: 500;
+z-index: -2;
+transform: rotate(-10deg);
+}
+
+
+.img1{
+width: 400px;
+height: 600px;
+left:100px;
+top:350px;
+position: absolute;
+z-index: 2;
+
+}
+.img1:hover{
+content: url("photos/firstselfiekiss.jpg");
+}
+
+.rectanglefirst{
+	width: 410px;
+	height: 620px;
+	top: 390px;
+	left: 30px;
+	position: absolute;
+	z-index: 1;
+	background: #3c38af;
+
+}
+
+
+.img3{
+transform: rotate(-20deg);
+position:absolute; 
+top:750px; 
+left:340px;
+width:20%;
+height:50%;
+z-index: 4;
+}
+
+
+
+.overlay{
+position: absolute;
+opacity:0;
+top: 750px;
+left:340px;
+width: 20%;
+height:50%;
+transition:.75s ease;
+background color:white;
+z-index: 4;
+}
+
+.tee:hover .overlay{
+opacity:.75;
+background-color: #ffffff;
+transform: rotate(-20deg);
+}
+
+.text{
+opacity: 1;
+color: #000000;
+font-size: 20px;
+
+
+}
+
+.img4{
+width:20%;
+height:40%;
+left: 1000px;
+top: 100px;
+position: absolute;
+transform: rotate(-30deg);
+
+}
+
+.img4:hover{
+transform: rotate(0deg);
+
+}
+
+.hug{
+top: 750px;
+left: 670px;
+position: absolute;
+width: 500;
+height: 300;
+z-index: -1;
+}
+.hug:hover{
+content: url("photos/hug.jpg");
+
+}
+
+.img5{
+top: 390px;
+left: 625px;
+position: absolute;
+z-index: 1; 
+}
+
+.img6{
+width: 100;
+height: 100;
+top: 650px;
+left: 600px;
+position: absolute;
+transform: rotate(-10deg);
+z-index: 1;
+}
+
+.img6:hover{
+transform: rotate(0deg);
+
+}
+
+.img7{
+width: 100;
+height: 100;
+top: 1000px;
+left: 50px;
+position: absolute;
+transform: rotate(-10deg);
+z-index: 1;
+}
+
+.img7:hover{
+transform: rotate(0deg);
+
+}
+
+.img8{
+width: 100;
+height: 100;
+top:1300px;
+left: 1100px;
+position: absolute;
+transform: rotate(10deg);
+z-index: 3;
+}
+
+.img8:hover{
+transform: rotate(0deg);
+
+}
+
+.mov1{
+position:absolute; 
+top:420px; 
+left: 550px; 
+width: 700; 
+height: 300; 
+transform:rotate(10deg);
+
+}
+
+controls{
+width: 80%;
+
+}
+
+/* Photo Hover*/
+.playlist{
+top: 1125px;
+left: 100px;
+position: absolute;
+
+}
+
+.background{
+top: 1095px;
+left: 160px;
+position: absolute;
+z-index: -2;
+}
+
+p.goout{
+top:1050px;
+left:600px;
+position: absolute;
+font-size: 60;
+font-family: lobster;
+
+}
+
+.bee{
+top: 1070px;
+left: 530px;
+position: absolute;
+width: 100;
+height: 75;
+
+}
+
+.bday{
+top:1250px;
+left: 520px;
+width: 300;
+height: 350;
+position: absolute;
+}
+
+.bday:hover{
+transform: scale(1.2);
+z-index: 3;
+}
+
+.bembe{
+top:1225px;
+left: 800px;
+width: 400;
+height: 300;
+position: absolute;
+z-index: -1;
+}
+.bembe:hover{
+transform: scale(1.2);
+z-index: 2;
+}
+
+.bday1{
+top:1500px;
+left: 750px;
+width: 400;
+height: 300;
+position: absolute;
+z-index: 2;
+transform: rotate(-10deg);
+
+}
+.bday1:hover{
+transform: scale(1.2);
+z-index: 3;
+}
+
+.mov2{
+top:1550px;
+left:550px;
+width:220;
+height:auto;
+position: absolute;
+transform: rotate(9deg);
+z-index:3;
+}
+
+.mov2:hover{
+transform: scale(1.2);
+z-index: 2;
+
+}
+
+.beach{
+top:1550px;
+left: 300px;
+width: 300;
+height: 400;
+position: absolute;
+z-index: 1;
+
+}
+
+.beach:hover{
+transform: scale(1.2);
+z-index: 3;
+}
+
+.bday3{
+top:1550px;
+left: 0px;
+width: 500;
+height: 300;
+position: absolute;
+z-index: -1;
+
+}
+
+.bday3:hover{
+transform: scale(1.2);
+z-index: 3;
+}
+
+.heythere{
+top:1700px;
+left: 800px;
+width: 400;
+height: 300;
+position: absolute;
+z-index: 1;
+transform: rotate(10deg);
+
+}
+
+.heythere:hover{
+transform: scale(1.2);
+z-index: 3;
+}
+
+
+
+/* Vacation */
+.vacay{
+top: 2800px;
+right: 20px;
+position: absolute;
+}
+
+.ramiva{
+top: 3100px;
+left: 100px;
+position: absolute;
+z-index: -1;
+width: 400;
+height: 250;
+transform: rotate(-20deg);
+}
+
+.insta1:hover{
+transform: rotate(-15deg);
+}
+
+.tag{
+top: 3000px;
+right: 50px;
+position: absolute;
+z-index: -1;
+width: 350;
+height: 400;
+}
+
+.ticket{
+top: 3450px;
+left: 200px;
+position: absolute;
+z-index: 1;
+width: 250;
+height: 400;
+transform: rotate(-10deg);
+}
+
+.philly1{
+top: 3400px;
+right: 100px;
+position: absolute;
+z-index: 1;
+width: 400;
+height: 250;
+transform:rotate(10deg);
+}
+.insta4:hover{
+transform: rotate(15deg);
+}
+
+
+.circlefake{
+top: 3210px; 
+left: 820px;
+width: 25px;
+height: 25px;
+border-radius: 50%; 
+position: absolute; 
+background: blue; 
+z-index: 5;
+}
+.circlefake:hover{
+content: url("photos/eiffeltower.jpg");
+width: 200;
+height: 200;
+}
+
+.circle{
+top: 3210px; 
+left: 680px;
+width: 25px;
+height: 25px;
+border-radius: 50%; 
+position: absolute; 
+background: blue; 
+z-index: 5;
+}
+
+.circle:hover{
+content: url("photos/philly.jpg");
+width: 200;
+height: 200;
+}
+
+.circle2{
+top: 3177px; 
+left: 715px;
+width: 25px;
+height: 25px;
+border-radius: 50%; 
+position: absolute; 
+background: blue; 
+z-index: 5;
+}
+
+.circle2:hover{
+content: url("photos/beaches.jpg");
+width: 200;
+height: 200;
+}
+
+.circle3{
+top: 3257px; 
+left: 659px;
+width: 25px;
+height: 25px;
+border-radius: 50%; 
+position: absolute; 
+background: blue; 
+z-index: 5;
+}
+
+.circle3:hover{
+content: url("photos/DC.jpg");
+width: 200;
+height: 200;
+}
+
+.circle4{
+top: 3281px; 
+left: 630px;
+width: 25px;
+height: 25px;
+border-radius: 50%; 
+position: absolute; 
+background: blue; 
+z-index: 5;
+}
+
+
+.circle5{
+top: 3277px; 
+left: 617px;
+width: 25px;
+height: 25px;
+border-radius: 50%; 
+position: absolute; 
+background: blue; 
+z-index: 5;
+}
+.circle5:hover{
+content: url("photos/VA.JPG");
+width: 200;
+height: 200;
+transform: rotate(90deg);
+}
+
+.map{
+top: 3000px;
+left: 450px;
+position: absolute;
+width: 400;
+height: 700;
+z-index: 1;
+}
+
+/* Cookbook */
+/* 
+.cook{
+top: 2150px;
+left: 250px;
+position: absolute;
+width: 800;
+height: 600;
+}
+ */
+
+.cookingtitle{
+	position: absolute;
+	top: 1970px;
+	left: 50px;
+	font-family: cooking;
+	font-size: 60pt;
+
+}
+ 
+.rect{
+	width: 150px;
+	height: 75px;
+	background: #e7c898; 
+	top: 2150px;
+	left: 50px;
+	position: absolute;
+	z-index: 2;
+}
+.rectrect{
+	width: 75px;
+	height: 37.5px;
+	background: #ffffff; 
+	top: 2150px;
+	left: 50px;
+	position: absolute;
+	z-index: 2;
+}
+
+.Steak{
+	top: 2140px;
+	left: 50px;
+	position: absolute;
+	font-size: 15pt;
+	z-index: 3;
+	font-family: courier;
+}
+
+
+.rect1{
+	width: 150px;
+	height: 75px;
+	background: #e7c898; 
+	top: 2150px;
+	left: 205px;
+	position: absolute;
+	z-index: 2;
+}
+
+.rect1rect1{
+	width: 75px;
+	height: 37.5px;
+	background: #ffffff; 
+	top: 2150px;
+	left: 205px;
+	position: absolute;
+	z-index: 2;
+}
+.bdayfont{
+	top: 2130px;
+	left: 205px;
+	position: absolute;
+	z-index: 3;
+	font-size: 15pt;
+	font-family: courier;
+	
+}
+.cake{
+	top: 2150px;
+	left: 205px;
+	position: absolute;
+	z-index: 3;
+	font-size: 15pt;
+	font-family: courier;
+}
+
+
+
+.rect2{
+	width: 150px;
+	height: 75px;
+	background: #e7c898; 
+	top: 2150px;
+	left: 360px;
+	position: absolute;
+	z-index: 2;
+}
+.rect2rect2{
+	width: 75px;
+	height: 37.5px;
+	background: #ffffff; 
+	top: 2150px;
+	left: 360px;
+	position: absolute;
+	z-index: 2;
+}
+.special{
+	top: 2130px;
+	left: 360px;
+	position: absolute;
+	z-index: 3;
+	font-size: 13pt;
+	font-family: courier;
+}
+
+.salmon{
+top: 2150px;
+	left: 360px;
+	position: absolute;
+	z-index: 3;
+	font-size: 15pt;
+	font-family: courier;
+}
+
+.rect3{
+	width: 150px;
+	height: 75px;
+	background: #e7c898; 
+	top: 2150px;
+	left: 515px;
+	position: absolute;
+	z-index: 2;
+}
+.rect3rect3{
+	width: 75px;
+	height: 37.5px;
+	background: #ffffff; 
+	top: 2150px;
+	left: 515px;
+	position: absolute;
+	z-index: 2;
+}
+.sink{
+	top: 2130px;
+	left: 515px;
+	position: absolute;
+	z-index: 3;
+	font-size: 15pt;
+	font-family: courier;
+}
+
+.spaghetti{
+top: 2155px;
+	left: 515px;
+	position: absolute;
+	z-index: 3;
+	font-size: 10.5pt;
+	font-family: courier;
+}
+
+
+.rect4{
+width: 720;
+height: 550;
+background: #e7c898; 
+top: 2230px;
+left: 50px;
+position: absolute;
+}
+
+.salmonrami{
+top: 2200px;
+left: 780px;
+position: absolute;
+width: 480;
+height: 300;
+
+}
+
+.salmonrami:hover{
+transform: rotate(20deg);
+}
+
+
+/* 
+.caketitle{
+	top: 2240px;
+	left: 55px;
+	position: absolute;
+	z-index: 3;
+	font-size: 17pt;
+	font-family: courier;
+
+}
+
+.caketext{
+	top: 2290px;
+	left: 55px;
+	position: absolute;
+	z-index: 3;
+	font-size: 15pt;
+	font-family: courier;
+	margin-right:560px;
+
+}
+ */
+
+
+
+.steaktitle{
+	top: 2240px;
+	left: 55px;
+	position: absolute;
+	z-index: 3;
+	font-size: 17pt;
+	font-family: courier;
+
+}
+
+.steaktext{
+	top: 2290px;
+	left: 55px;
+	position: absolute;
+	z-index: 3;
+	font-size: 15pt;
+	font-family: courier;
+	margin-right:560px;
+
+}
+
+a { 
+text-decoration: none; 
+}
+a:visited { 
+text-decoration: none; 
+}
+
+.restaurant{
+top: 2550px;
+left: 950px;
+position: absolute;
+width: 200;
+height: 300;
+transform: rotate(20deg);
+}
+
+/* Polaroids */
+.polaroids{
+ font-family: groovy;
+ top: 3800px;
+ left:100px;
+ position: absolute;
+ font-size: 80pt;
+ margin-right: auto; 
+ margin-left: auto;
+ padding: 0;
+}
+
+.bed1{
+top:4050px;
+left: 100px;
+position: absolute;
+width: 350;
+height: 550;
+}
+.bed2{
+top:4050px;
+left: 460px;
+position: absolute;
+width: 350;
+height: 550;
+}
+.bed3{
+top:4050px;
+left: 820px;
+position: absolute;
+width: 350;
+height: 550;
+}
+.ebday1{
+top:4610px;
+left: 100px;
+position: absolute;
+width: 350;
+height: 550;
+}
+.ebday2{
+top:4610px;
+left: 460px;
+position: absolute;
+width: 350;
+height: 550;
+}
+.ebday3{
+top:4610px;
+left: 820px;
+position: absolute;
+width: 350;
+height: 550;
+}
+
+.hotel1{
+top:5170px;
+left: 100px;
+position: absolute;
+width: 350;
+height: 550;
+}
+.hotel2{
+top:5170px;
+left: 460px;
+position: absolute;
+width: 350;
+height: 550;
+}
+.hotel3{
+top:5170px;
+left: 820px;
+position: absolute;
+width: 350;
+height: 550;
+}
+.random1{
+top:5700px;
+left: 100px;
+position: absolute;
+width: 350;
+height: 550;
+}
+.random2{
+top:5700px;
+left: 460px;
+position: absolute;
+width: 350;
+height: 550;
+}
+.random3{
+top:5700px;
+left: 820px;
+position: absolute;
+width: 350;
+height: 550;
+}
+
+.next{
+	font-family: exotic;
+	font-size: 100pt;
+	top: 6800px;
+	left: 400px;
+	position: absolute;
+	text-align: center;
+	padding-bottom: 200px;
+}
+
+
